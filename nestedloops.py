@@ -13,13 +13,14 @@ print("for loop")
 for i in range(10, 21, 2):
     print(i)
 
-print("Planets:", planets)
-print("planets:")
 
 planets = ["mercury", "venus", "earth",
            "mars", "pluto", "jupiter", "saturn",
            "uranus", "neptune"]
-           
+
+print("Planets:", planets)
+print("planets:")
+       
 for planets in planets:
     if planets == "pluto":
         continue
